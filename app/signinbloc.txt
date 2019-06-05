@@ -1,17 +1,19 @@
-/***********************************************************
- *  Signing
- **********************************************************/
-signingConfigs {
-    debug {
-        storeFile project.ext.JKSFile
-        storePassword project.ext.JKSPassword
-        keyAlias project.ext.JKSKeyAlias
-        keyPassword project.ext.JKSKeyPassword
-    }
-    release {
-        storeFile project.ext.JKSFile_Release
-        storePassword project.ext.JKSPassword_Release
-        keyAlias project.ext.JKSKeyAlias_Release
-        keyPassword project.ext.JKSKeyPassword_Release
-    }
-}
+	/***********************************************************
+	 *  Signing
+	 **********************************************************/
+	apply from: 'gradle/properties/legacy_accounts.gradle'
+	signingConfigs {
+	//TODO manage your signin configuration you have switched 
+		 debug{
+			 storeFile project.ext.JKSFile_debug
+			 storePassword project.ext.JKSPassword_debug
+			 keyAlias project.ext.JKSKeyAlias_debug
+			 keyPassword project.ext.JKSKeyPassword_debug
+		}
+		 release{
+			 storeFile project.ext.JKSFile_release
+			 storePassword project.ext.JKSPassword_release
+			 keyAlias project.ext.JKSKeyAlias_release
+			 keyPassword project.ext.JKSKeyPassword_release
+		}
+	}

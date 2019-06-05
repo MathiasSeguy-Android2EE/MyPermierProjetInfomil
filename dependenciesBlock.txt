@@ -1,5 +1,117 @@
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-	implementation "androidx.appcompat:appcompat:${androidxAppcompat_appcompat_Version}"
+		implementation "androidx.appcompat:appcompat:${androidxAppcompat_appcompat_Version}"
+//toto
+//tata
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"libs)${libs)}"
+    //necessary to read JSONObject in tests
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"org.json:json:${orgJson_json_Version}"
+    // LeakCanary declaration order matters https://github.com/square/leakcanary/issues/143
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.squareup.leakcanary:leakcanary-android-no-op:${comSquareupLeakcanary_leakcanaryAndroidNoOp_Version}"
+    // LeakCanary declaration order matters https://github.com/square/leakcanary/issues/143
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.squareup.leakcanary:leakcanary-android-no-op:${comSquareupLeakcanary_leakcanaryAndroidNoOp_Version}"
+    // LeakCanary declaration order matters https://github.com/square/leakcanary/issues/143
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.squareup.leakcanary:leakcanary-android:${comSquareupLeakcanary_leakcanaryAndroid_Version}"
+    // LeakCanary declaration order matters https://github.com/square/leakcanary/issues/143
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.squareup.leakcanary:leakcanary-android-no-op:${comSquareupLeakcanary_leakcanaryAndroidNoOp_Version}"
+    // Kotlin
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"org.jetbrains.kotlin:kotlin-stdlib-jdk7:${orgJetbrainsKotlin_kotlinStdlibJdk7_Version}"
+    // Retrofit and co
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.squareup.moshi:moshi:${comSquareupMoshi_moshi_Version}"
+    // Retrofit and co
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.squareup.retrofit2:retrofit:${comSquareupRetrofit2_retrofit_Version}"
+    // Retrofit and co
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.squareup.retrofit2:converter-moshi:${comSquareupRetrofit2_converterMoshi_Version}"
+    // Retrofit and co
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.squareup.okhttp3:okhttp:${comSquareupOkhttp3_okhttp_Version}"
+    // Retrofit and co
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.squareup.okhttp3:logging-interceptor:${comSquareupOkhttp3_loggingInterceptor_Version}"
+    // Retrofit and co
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.squareup.okio:okio:${comSquareupOkio_okio_Version}"
+    // EventBus
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"org.greenrobot:eventbus:${orgGreenrobot_eventbus_Version}"
+    // Mockito
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"org.mockito:mockito-core:${orgMockito_mockitoCore_Version}"
+    // NetWorkConnectionClass (Quality)
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.facebook.network.connectionclass:connectionclass:${comFacebookNetworkConnectionclass_connectionclass_Version}"
+    //Dart and Hendson
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.f2prateek.dart:dart:${comF2prateekDart_dart_Version}"
+    //Dart and Hendson
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.f2prateek.dart:henson:${comF2prateekDart_henson_Version}"
+    //Dart and Hendson
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.f2prateek.dart:dart-processor:${comF2prateekDart_dartProcessor_Version}"
+    //Dart and Hendson
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.f2prateek.dart:henson-processor:${comF2prateekDart_hensonProcessor_Version}"
+    //Dart and Hendson
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.batch.android:batch-sdk:${comBatchAndroid_batchSdk_Version}"
+    //Stetho just to check
+    //http://facebook.github.io/stetho/
+    //https://code.tutsplus.com/tutorials/debugging-android-apps-with-facebooks-stetho--cms-24205
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.facebook.stetho:stetho:${comFacebookStetho_stetho_Version}"
+    //Stetho just to check
+    //http://facebook.github.io/stetho/
+    //https://code.tutsplus.com/tutorials/debugging-android-apps-with-facebooks-stetho--cms-24205
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.facebook.stetho:stetho-okhttp3:${comFacebookStetho_stethoOkhttp3_Version}"
+    // Picasso (Image downloading and caching)
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.squareup.picasso:picasso:${comSquareupPicasso_picasso_Version}"
+    //MPAndroidChart
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"com.github.PhilJay:MPAndroidChart:${comGithubPhilJay_MPAndroidChart_Version}"
+	implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}")"job:is:done"
+//toto
+//tata
+	"junit:junit:${junit_junit_Version}""libs)${libs)}"
+    //necessary to read JSONObject in tests
+	"junit:junit:${junit_junit_Version}""org.json:json:${orgJson_json_Version}"
+    // LeakCanary declaration order matters https://github.com/square/leakcanary/issues/143
+	"junit:junit:${junit_junit_Version}""com.squareup.leakcanary:leakcanary-android-no-op:${comSquareupLeakcanary_leakcanaryAndroidNoOp_Version}"
+    // LeakCanary declaration order matters https://github.com/square/leakcanary/issues/143
+	"junit:junit:${junit_junit_Version}""com.squareup.leakcanary:leakcanary-android-no-op:${comSquareupLeakcanary_leakcanaryAndroidNoOp_Version}"
+    // LeakCanary declaration order matters https://github.com/square/leakcanary/issues/143
+	"junit:junit:${junit_junit_Version}""com.squareup.leakcanary:leakcanary-android:${comSquareupLeakcanary_leakcanaryAndroid_Version}"
+    // LeakCanary declaration order matters https://github.com/square/leakcanary/issues/143
+	"junit:junit:${junit_junit_Version}""com.squareup.leakcanary:leakcanary-android-no-op:${comSquareupLeakcanary_leakcanaryAndroidNoOp_Version}"
+    // Kotlin
+	"junit:junit:${junit_junit_Version}""org.jetbrains.kotlin:kotlin-stdlib-jdk7:${orgJetbrainsKotlin_kotlinStdlibJdk7_Version}"
+    // Retrofit and co
+	"junit:junit:${junit_junit_Version}""com.squareup.moshi:moshi:${comSquareupMoshi_moshi_Version}"
+    // Retrofit and co
+	"junit:junit:${junit_junit_Version}""com.squareup.retrofit2:retrofit:${comSquareupRetrofit2_retrofit_Version}"
+    // Retrofit and co
+	"junit:junit:${junit_junit_Version}""com.squareup.retrofit2:converter-moshi:${comSquareupRetrofit2_converterMoshi_Version}"
+    // Retrofit and co
+	"junit:junit:${junit_junit_Version}""com.squareup.okhttp3:okhttp:${comSquareupOkhttp3_okhttp_Version}"
+    // Retrofit and co
+	"junit:junit:${junit_junit_Version}""com.squareup.okhttp3:logging-interceptor:${comSquareupOkhttp3_loggingInterceptor_Version}"
+    // Retrofit and co
+	"junit:junit:${junit_junit_Version}""com.squareup.okio:okio:${comSquareupOkio_okio_Version}"
+    // EventBus
+	"junit:junit:${junit_junit_Version}""org.greenrobot:eventbus:${orgGreenrobot_eventbus_Version}"
+    // Mockito
+	"junit:junit:${junit_junit_Version}""org.mockito:mockito-core:${orgMockito_mockitoCore_Version}"
+    // NetWorkConnectionClass (Quality)
+	"junit:junit:${junit_junit_Version}""com.facebook.network.connectionclass:connectionclass:${comFacebookNetworkConnectionclass_connectionclass_Version}"
+    //Dart and Hendson
+	"junit:junit:${junit_junit_Version}""com.f2prateek.dart:dart:${comF2prateekDart_dart_Version}"
+    //Dart and Hendson
+	"junit:junit:${junit_junit_Version}""com.f2prateek.dart:henson:${comF2prateekDart_henson_Version}"
+    //Dart and Hendson
+	"junit:junit:${junit_junit_Version}""com.f2prateek.dart:dart-processor:${comF2prateekDart_dartProcessor_Version}"
+    //Dart and Hendson
+	"junit:junit:${junit_junit_Version}""com.f2prateek.dart:henson-processor:${comF2prateekDart_hensonProcessor_Version}"
+    //Dart and Hendson
+	"junit:junit:${junit_junit_Version}""com.batch.android:batch-sdk:${comBatchAndroid_batchSdk_Version}"
+    //Stetho just to check
+    //http://facebook.github.io/stetho/
+    //https://code.tutsplus.com/tutorials/debugging-android-apps-with-facebooks-stetho--cms-24205
+	"junit:junit:${junit_junit_Version}""com.facebook.stetho:stetho:${comFacebookStetho_stetho_Version}"
+    //Stetho just to check
+    //http://facebook.github.io/stetho/
+    //https://code.tutsplus.com/tutorials/debugging-android-apps-with-facebooks-stetho--cms-24205
+	"junit:junit:${junit_junit_Version}""com.facebook.stetho:stetho-okhttp3:${comFacebookStetho_stethoOkhttp3_Version}"
+    // Picasso (Image downloading and caching)
+	"junit:junit:${junit_junit_Version}""com.squareup.picasso:picasso:${comSquareupPicasso_picasso_Version}"
+    //MPAndroidChart
+	"junit:junit:${junit_junit_Version}""com.github.PhilJay:MPAndroidChart:${comGithubPhilJay_MPAndroidChart_Version}"
+	"junit:junit:${junit_junit_Version}""job:is:done"
     //Crashlytics
     implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}") {
         transitive = true;
