@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyPermierProjetInfomil</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txvTitle">Title</string>
+    <string name="edtMessageHint">Tape ton texte ici</string>
+    <string name="btnAdd">Ajouter</string>
+
+</resources>
